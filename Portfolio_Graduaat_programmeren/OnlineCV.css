@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+background-color:#F8E8EE ;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+
+}
+nav .nav__container{
+    display: flex;
+    justify-content: right;
+}
+nav .nav__container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav .nav__container ul li {
+    padding: 1rem;
+    font-size: 2rem;
+    display: inline;
+    align-items: center;
+    z-index: 1;
+
+}
+
+nav .nav__container ul li i {
+    color: white;
+    margin-right: 10px;
+}
+
+nav .nav__container ul li i:hover {
+    color: red;
+}
+
+header .header__container {
+    margin: 0 auto;
+    max-width: 80rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+header .header__container h1 {
+    font-weight: bold;
+    color: black;
+    margin: 0 1rem;
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 3rem;
+    z-index: 1;
+    padding-top: 6rem;
+
+}
+
+header .header__container a {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+header .header__container a img {
+    border-radius: 50%;
+}
+
+header .header__container a img:hover {
+    box-shadow: 10px 10px 10px black;
+}
+header .header__container a img:active{
+    box-shadow: none;
+    border: 3px solid black;
+}
+
+main .main__container-me{
+    margin: 0 auto;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+main .main__container-me h1{
+    padding-top:6rem;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    position: relative;
+    color: black;
+}
+main .main__container-me p{
+    text-align: center;
+    font-size: 1.5rem ;
+    padding-bottom: 24rem;
+}
+
+
+
+table {
+    caption-side: bottom;
+    border: 1px solid red;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 24rem;
+}
+
+table td:nth-child(even) {
+    background-color: #F8E8EE;
+}
+
+table td:nth-child(odd) {
+    background-color: #f0f8ff;
+}
+
+
+main .main__container-education{
+    margin: 0 auto;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+main .main__container-education h1{
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    position: relative;
+    color: black;
+}
+main .main__container-education h4{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+main .main__container-education h6{
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+main .main__container-education p{
+    text-align: center;
+    font-size: 1.5rem ;
+    margin-bottom: 6rem;
+}
+
+
+
+main .main__container-workexperience{
+    margin: 0 auto;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+main .main__container-workexperience h1{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    position: relative;
+    color: black;
+}
+main .main__container-workexperience h4{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+
+}
+main .main__container-workexperience b p{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+
+}
+main .main__container-workexperience p{
+    font-size: 1.5rem ;
+    margin-bottom: 6rem;
+
+}
+main .main__container-skills{
+    margin: 0 auto;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+main .main__container-skills h1{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: black;
+}
+main .main__container-skills h4{
+    text-align: center;
+    font-size: 1.3rem;
+}
+main .main__container-skills p{
+    font-size: 1.5rem ;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+main .main__container-skills ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+main .main__container-skills ul li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin:0 auto;
+    width: 40rem;
+}
+
+main .main__container-skills ul li b{
+    color: black;
+
+}
+main .container__info{
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+main .container__info h1{
+    text-align: center;
+    color: black;
+    margin-top: 3rem;
+}
+main .container__info table {
+    caption-side: bottom;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 24rem;
+    margin-left: 28rem;
+    margin-bottom: 5rem;
+}
+
+footer{
+    background-color: lightgrey;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+
+}
+footer h4{
+    margin-top: 100px;
+}
+footer a{
+    text-decoration: none;
+    height: 40px;
+    vertical-align: center;
+    margin-top: 100px;
+}
+footer a p{
+    display: block;
+    background-color: #22092C;
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+footer a p:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 80rem) {
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        padding: 20px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+    }
+
+    nav .nav__container ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        z-index: 1;
+    }
+
+    nav .nav__container ul li {
+        padding: 1rem;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        height: 3rem;
+        z-index: 1;
+
+    }
+
+    nav .nav__container ul li i {
+        color: white;
+        margin-right: 10px;
+    }
+
+    nav .nav__container ul li i:hover {
+        color: red;
+    }
+
+    header .header__container h1 {
+        font-size: 3.5rem;
+        z-index: -1;
+    }
+
+    header .header__container a {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    main .main__container-skills ul li {
+        width: 100%;
+    }
+
+    main .container__info table {
+        margin-left: 0;
+    }
+
+}
+
+
+@media (max-width: 60rem) {
+    nav .nav__container ul li i {
+        font-size: 1.5rem;
+    }
+    header .header__container h1 {
+        font-size: 3rem;
+    }
+
+    header .header__container a {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    main .main__container-skills ul li {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 45rem) {
+
+    header .header__container h1 {
+        font-size: 2.5rem;
+    }
+
+    header .header__container a {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    main .main__container-skills ul li {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 35rem) {
+    header .header__container h1 {
+        font-size: 2rem;
+    }
+
+    header .header__container a {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    main .main__container-skills ul li {
+        width: 100%;
+    }
+}
+
+/* Styles for screens up to 30rem (480px) */
+@media (max-width: 30rem) {
+    nav {
+        padding: 1.25rem; /* Adjust padding for smaller screens */
+    }
+
+    nav .nav__container ul li {
+        padding: 0.625rem; /* Adjust padding for smaller screens */
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        height: 5rem; /* Adjust height for smaller screens */
+    }
+
+    nav .nav__container ul li i {
+        margin-right: 0.3125rem; /* Adjust margin for smaller screens */
+    }
+
+    header .header__container h1 {
+        font-size: 1.875rem; /* Adjust font size for smaller screens */
+    }
+
+    header .header__container a {
+        width: 15.625rem; /* Adjust width for smaller screens */
+        margin-bottom: 1.875rem;
+    }
+
+    main .main__container-skills ul li {
+        width: 100%;
+    }
+
+    main .container__info table {
+        margin-left: 0;
+    }
+}
+
+

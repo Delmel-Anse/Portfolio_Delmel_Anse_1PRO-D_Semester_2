@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:#F8E8EE ;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+}
+nav .nav__container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 5rem;
+    max-width: 80rem;
+}
+nav .nav__container ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+nav .nav__container ul li{
+    padding: 1rem;
+    font-size: 2rem;
+    display: inline;
+    align-items: center;
+}
+nav .nav__container ul li i{
+    color: white;
+    margin-right: 10px;
+}
+nav .nav__container ul li i:hover{
+    color: red;
+}
+nav .nav__container ul li i:active{
+    color: salmon;
+}
+nav .nav__container h1{
+    color: white;
+    font-size: 2rem;
+    height: 40px;
+    padding: 1rem;
+}
+main .container__opleiding{
+    background-color: white;
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+}
+main .container__competenties{
+    background-color: white;
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+}
